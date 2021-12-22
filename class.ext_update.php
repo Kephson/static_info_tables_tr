@@ -29,6 +29,7 @@ namespace SJBR\StaticInfoTablesTr;
 use SJBR\StaticInfoTables\Cache\ClassCacheManager;
 use SJBR\StaticInfoTables\Utility\DatabaseUpdateUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Object\Exception;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 
@@ -44,6 +45,7 @@ class ext_update
      * Main function, returning the HTML content
      *
      * @return string HTML
+     * @throws Exception
      */
     public function main()
     {
