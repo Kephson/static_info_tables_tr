@@ -1,7 +1,7 @@
 <?php
 /** @noinspection PhpFullyQualifiedNameUsageInspection */
 
-defined('TYPO3_MODE') || die;
+defined('TYPO3') or die();
 
 call_user_func(function ($extKey) {
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup(
