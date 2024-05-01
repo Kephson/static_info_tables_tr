@@ -11,15 +11,8 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Static Info Tables (tr)',
     'description' => 'Turkish (tr) language pack for the Static Info Tables providing localized names for countries.',
-    'category' => 'misc',
     'version' => '12.4.0',
-    'state' => 'stable',
-    'uploadfolder' => false,
-    'createDirs' => '',
-    'clearCacheOnLoad' => false,
-    'author' => 'Ephraim Härer',
-    'author_email' => 'ephraim.haerer@renolit.com',
-    'author_company' => 'RENOLIT SE',
+    'category' => 'misc',
     'constraints' => [
         'depends' => [
             'typo3' => '12.4.0-12.4.99',
@@ -28,4 +21,8 @@ $EM_CONF[$_EXTKEY] = [
         'conflicts' => [],
         'suggests' => [],
     ],
+    'state' => 'stable',
+    'author' => 'Ephraim Härer',
+    'author_email' => 'ephraim.haerer@renolit.com',
+    'author_company' => 'RENOLIT SE',
 ];
