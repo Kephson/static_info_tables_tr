@@ -51,7 +51,7 @@ Temporary Items
 node_modules/
 .sass-cache/
 
-/.Build/*
+/.Build/
 /.php-cs-fixer.cache
 /.phpunit.result.cache
 /Documentation-GENERATED-temp/
@@ -63,3 +63,4 @@ node_modules/
 /clover.xml
 /nbproject
 /var
+/public

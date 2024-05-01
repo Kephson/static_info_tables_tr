@@ -22,16 +22,32 @@
 			"role": "Developer"
 		}
 	],
+	"require": {
+		"php": "^8.1",
+		"sjbr/static-info-tables": "^12.4",
+		"typo3/cms-core": "^12.4"
+	},
+	"require-dev": {
+		"ergebnis/composer-normalize": "^2.42"
+	},
 	"replace": {
 		"typo3-ter/static-info-tables-tr": "self.version"
 	},
-	"require": {
-		"typo3/cms-core": "^11.5 || ^12.4",
-		"sjbr/static-info-tables": "^11.5 || ^12.4"
+	"config": {
+		"allow-plugins": {
+			"ergebnis/composer-normalize": true,
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		},
+		"bin-dir": ".Build/bin",
+		"sort-packages": true,
+		"vendor-dir": ".Build/vendor"
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "static_info_tables_tr"
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"extension-key": "static_info_tables_tr",
+			"web-dir": ".Build/public"
 		}
 	}
 }
