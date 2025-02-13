@@ -5,7 +5,7 @@ namespace SJBR\StaticInfoTablesTr;
 /*
  *  Copyright notice
  *
- *  (c) 2019-2024 Ephraim Härer <ephraim.haerer@renolit.com>
+ *  (c) 2019-2025 Ephraim Härer <ephraim.haerer@renolit.com>
  *  (c) 2016 Manuel Selbach <manuel_selbach@yahoo.de>
  *  All rights reserved
  *
