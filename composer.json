@@ -23,7 +23,7 @@
     "issues": "https://github.com/Kephson/static_info_tables_tr/issues"
   },
   "require": {
-    "php": "^8.1",
+    "php": "^8.2",
     "typo3/cms-core": "^13.4",
     "sjbr/static-info-tables": "^13.4"
   },
