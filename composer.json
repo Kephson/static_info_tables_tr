@@ -57,7 +57,11 @@
 			"rm -rf Tests/",
 			"rm .gitignore",
 			"rm .scrutinizer.yml",
-			"rm disabled.travis.yml"
+			"rm disabled.travis.yml",
+			"rm -rf .ddev",
+			"rm -rf .github",
+			"rm -rf .editorconfig",
+			"rm -rf .gitattributes"
 		]
 	}
 }
