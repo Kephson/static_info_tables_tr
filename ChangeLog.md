@@ -5,6 +5,9 @@ project adheres to [Semantic Versioning](https://semver.org/).
 
 
 ### 2026-07-23  Ephraim Härer  <ephraim.haerer@renolit.com>
+- new release for TYPO3 14.3
+
+### 2026-07-23  Ephraim Härer  <ephraim.haerer@renolit.com>
 - cleanup for next release
 
 ### 2025-02-13  Ephraim Härer  <ephraim.haerer@renolit.com>

@@ -24,14 +24,20 @@
 	},
 	"require": {
 		"php": "^8.2",
-		"sjbr/static-info-tables": "^13.4",
-		"typo3/cms-core": "^13.4"
+		"sjbr/static-info-tables": "^14.3",
+		"typo3/cms-core": "^14.3",
+		"typo3/cms-extbase": "^14.3"
 	},
 	"require-dev": {
-		"ergebnis/composer-normalize": "^2.42"
+		"ergebnis/composer-normalize": "^2.52"
 	},
 	"replace": {
 		"typo3-ter/static-info-tables-tr": "self.version"
+	},
+	"autoload": {
+		"psr-4": {
+			"RENOLIT\\StaticInfoTablesTr\\": "Classes/"
+		}
 	},
 	"config": {
 		"allow-plugins": {
@@ -50,7 +56,7 @@
 			},
 			"cms-package-dir": "{$vendor-dir}/typo3/cms",
 			"extension-key": "static_info_tables_tr",
-			"version": "13.4.2",
+			"version": "14.3.0",
 			"web-dir": ".Build/public"
 		}
 	},
