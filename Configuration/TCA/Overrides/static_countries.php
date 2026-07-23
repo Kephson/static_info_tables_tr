@@ -1,4 +1,7 @@
 <?php
+
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
 defined('TYPO3') or die();
 
 call_user_func(function ($extKey, $table) {
@@ -9,8 +12,8 @@ call_user_func(function ($extKey, $table) {
         $additionalColumns = [];
         $additionalColumns[$destField] = $GLOBALS['TCA'][$table]['columns'][$sourceField];
         $additionalColumns[$destField]['label'] = 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:static_countries_item.' . $destField;
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns($table, $additionalColumns);
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes($table, $destField, '',
+        ExtensionManagementUtility::addTCAcolumns($table, $additionalColumns);
+        ExtensionManagementUtility::addToAllTCAtypes($table, $destField, '',
             'after:' . $sourceField);
         // Add as search field
         $GLOBALS['TCA'][$table]['ctrl']['searchFields'] .= ',' . $destField;

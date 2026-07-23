@@ -1,8 +1,10 @@
 <?php
 declare(strict_types=1);
 
+use SJBR\StaticInfoTables\Domain\Model\Country;
+
 return [
-    \SJBR\StaticInfoTables\Domain\Model\Country::class => [
+    Country::class => [
         'tableName' => 'static_countries',
         'properties' => [
             'shortNameTr' => [

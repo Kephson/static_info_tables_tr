@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file. This
 project adheres to [Semantic Versioning](https://semver.org/).
 
+
+### 2026-07-23  Ephraim Härer  <ephraim.haerer@renolit.com>
+- cleanup for next release
+
 ### 2025-02-13  Ephraim Härer  <ephraim.haerer@renolit.com>
 - updated for TYPO3 13.4
 

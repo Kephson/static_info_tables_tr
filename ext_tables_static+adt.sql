@@ -217,7 +217,7 @@ UPDATE static_countries SET cn_short_tr='Tayvan' WHERE cn_iso_2='TW';
 UPDATE static_countries SET cn_short_tr='Tanzanya' WHERE cn_iso_2='TZ';
 UPDATE static_countries SET cn_short_tr='Ukrayna' WHERE cn_iso_2='UA';
 UPDATE static_countries SET cn_short_tr='Uganda' WHERE cn_iso_2='UG';
-UPDATE static_countries SET cn_short_tr='Amerika Birleşik Devletleri\'nin küçük dış adaları' WHERE cn_iso_2='UM';
+UPDATE static_countries SET cn_short_tr='Amerika Birleşik Devletleri''nin küçük dış adaları' WHERE cn_iso_2='UM';
 UPDATE static_countries SET cn_short_tr='Amerika Birleşik Devletleri (ABD)' WHERE cn_iso_2='US';
 UPDATE static_countries SET cn_short_tr='Uruguay' WHERE cn_iso_2='UY';
 UPDATE static_countries SET cn_short_tr='Özbekistan' WHERE cn_iso_2='UZ';

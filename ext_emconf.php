@@ -11,7 +11,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Static Info Tables (tr)',
     'description' => 'Turkish (tr) language pack for the Static Info Tables providing localized names for countries.',
-    'version' => '13.4.1',
+    'version' => '13.4.2',
     'category' => 'misc',
     'constraints' => [
         'depends' => [

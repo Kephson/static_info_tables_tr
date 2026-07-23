@@ -36,14 +36,14 @@ class Country extends AbstractEntity
      *
      * @var string
      */
-    protected $shortNameTr = '';
+    protected string $shortNameTr = '';
 
     /**
      * Gets the Turkish short name.
      *
      * @return string
      */
-    public function getShortNameTr()
+    public function getShortNameTr(): string
     {
         return $this->shortNameTr;
     }
@@ -54,7 +54,7 @@ class Country extends AbstractEntity
      * @param string $shortNameTr
      * @return void
      */
-    public function setShortNameTr($shortNameTr)
+    public function setShortNameTr(string $shortNameTr): void
     {
         $this->shortNameTr = $shortNameTr;
     }
